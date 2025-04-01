@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Yadav - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="name">
+                <h1>Aman Yadav</h1>
+            </div>
+            <div class="content">
+                <a href="#about">About</a>
+
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="about-content">
+            <p>I am an analytical, motivated, and hard-working Python Developer with over a year of experience designing, debugging, and troubleshooting applications using Flask and Python. I aim to use my development skills to build and enhance banking applications for the finance industry. Passionate about learning and always up for new challenges.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="heading">Education</h2>
+        <div id="myeducation">
+            <div class="school">
+                <h3>High School</h3>
+                <p>Year: 2015-2017</p>
+                <p>Percentage: 70%</p>
+                <p>Completed my high school education with a focus on mathematics and science. Participated in various school-level science exhibitions and quizzes.</p>
+            </div>
+            <div class="school">
+                <h3>Intermediate</h3>
+                <p>Year: 2017-2019</p>
+                <p>Percentage: 65%</p>
+                <p>Specialized in Computer Science during my intermediate studies. Gained a strong foundation in programming concepts and algorithms.</p>
+            </div>
+            <div class="school">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p>Year: 2019-2023</p>
+                <p>Percentage: 77%</p>
+                <p>Focused on software development, data structures, algorithms, and web development. Completed projects involving Python, Java, and web frameworks like Flask and Django.</p>
+            </div>
+            <!-- Add a new section for Certifications -->
+            <div class="certifications">
+                <h3  class="heading">CERTIFICATION</h3>
+                <div class="certificate">
+                <div class="certification">
+                    <h4>Python Programming Certification</h4>
+                    <p>Issued by: Digikull</p>
+                    <p>Completion Date: June 2024</p>
+                    <p>Learned advanced Python concepts, including data analysis, object-oriented programming, and building web applications with Flask.</p>
+                </div>
+                <div class="certification">
+                    <h4>SQL Database Management</h4>
+                    <p>Issued by: Simplilearn</p>
+                    <p>Completion Date: December 2024</p>
+                    <p>Gained expertise in SQL queries, database design, and optimization techniques for relational databases.</p>
+                </div>
+                <div class="certification">
+                    <h4>Web Development Bootcamp</h4>
+                    <p>Issued by: CodeKaro</p>
+                    <p>Completion Date: March 2025</p>
+                    <p>Completed an intensive bootcamp focusing on HTML, CSS, JavaScript, and backend development with Node.js and Express.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="Python.jpg" alt="Python">
+                <h3>Python</h3>
+                <p>Experienced in writing Python code, including object-oriented programming, web frameworks like Flask and Django, and data manipulation.</p>
+            </div>
+            <div class="skill">
+                <img src="sql.jpg" alt="SQL">
+                <h3>SQL</h3>
+                <p>Proficient in SQL queries, database design, and optimization for relational databases.</p>
+            </div>
+            <div class="skill">
+                <img src="html.jpg" alt="HTML/CSS">
+                <h3>HTML & CSS</h3>
+                <p>Skilled in building responsive web pages with modern HTML5 and CSS3 practices.</p>
+            </div>
+            <div class="skill">
+                <img src="javascript.jpg" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Solid understanding of JavaScript and experience with front-end frameworks like React.js and back-end technologies like Node.js.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2 class="heading">PROJECTS</h2>
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="glassdoor.png" alt="Glassdoor Project">
+                <h3>Glassdoor Project</h3>
+                <p>This is a Python and SQL-based application that replicates a job-seeking platform like Glassdoor.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Flask</span>
+                </div>
+                <a href="#" class="view-more">View Details</a>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="tictactoe.jpg" alt="Tic Tac Toe">
+                <h3>Tic Tac Toe</h3>
+                <p>A simple Python-based mini game created using Python.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>CLI</span>
+                </div>
+                <a href="#" class="view-more">View Details</a>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="snakegame.jpg" alt="Snake Game">
+                <h3>Snake Game</h3>
+                <p>Classic Snake Game using Python and the Pygame library.</p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Pygame</span>
+                </div>
+                <a href="#" class="view-more">View Details</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <div class="contact">
+            <form>
+                <input type="text" placeholder="Enter your name" required>
+                <br>
+                <input type="email" placeholder="Enter your email" required>
+                <br>
+                <textarea placeholder="Your message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aman Yadav. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Add smooth scrolling to all links
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector(link.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
